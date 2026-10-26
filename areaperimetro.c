@@ -8,7 +8,7 @@ int main(void)
     scanf("%lf", &radio);
 
     double area = pi * radio * radio;
-    double perimetro = pi * radio;
+    double perimetro =2 *pi * radio;
 
     printf("Área: %.2f\n", area);
     printf("Perímetro: %.2f\n", perimetro);
